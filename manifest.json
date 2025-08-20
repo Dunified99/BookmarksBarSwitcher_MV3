@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmarks Bar Switcher Reborn",
+  "version": "3.0.1",
+  "description": "Switch the bookmarks bar easily, updated from manifest V2 to V3 July, 2025.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Bookmarks Bar Switcher"
+  },
+  "permissions": [
+    "bookmarks",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
